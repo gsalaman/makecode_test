@@ -155,7 +155,7 @@ let Duck_food = sprites.create(img`
     . c d d d d d d 5 5 5 5 5 d b . 
     . . c b d d d d d 5 5 5 b b . . 
     . . . c c c c c c c c b b . . . 
-    `, SpriteKind.Projectile)
+    `, SpriteKind.Enemy)
 controller.moveSprite(mySprite)
 controller.moveSprite(Duck_food)
 mySprite.setStayInScreen(true)
